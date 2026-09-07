@@ -1,0 +1,12 @@
+{
+  "name": "dsh-hello-plugin",
+  "version": "0.1.0",
+  "description": "A minimal DeepSeek Harness plugin that prints a startup greeting.",
+  "type": "module",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml", "README.md"],
+  "keywords": ["deepseek-harness", "dsh", "cordis", "plugin", "hello-world"],
+  "engines": { "node": "^22.19.0 || >=24.0.0" },
+  "license": "MIT",
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
